@@ -30,7 +30,7 @@ open class LGButton: UIControl {
     fileprivate var gradient : CAGradientLayer?
     
     fileprivate var rootView : UIView!
-    @IBOutlet weak var titleLbl: UILabel!
+    @IBOutlet public weak var titleLbl: UILabel!
     @IBOutlet fileprivate weak var mainStackView: UIStackView!
     
     @IBOutlet fileprivate weak var bgContentView: UIView!
